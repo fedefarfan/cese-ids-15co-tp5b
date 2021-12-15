@@ -25,6 +25,12 @@
 
 /*=====[Definitions of public global variables]==============================*/
 
+/**
+* @brief Datos de los alumnos
+* @author Roberto Federico Farfan
+* @version 1.0
+* @date 14/12/2021
+*/
 static const struct alumno_s ESTEBAN_VOLENTINI = {
     .apellidos = "VOLENTINI",
     .nombres = "Esteban Daniel",

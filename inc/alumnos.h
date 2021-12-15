@@ -28,7 +28,15 @@ extern "C" {
 /*=====[Public function-like macros]=========================================*/
 
 /*=====[Definitions of public data types]====================================*/
-
+/**
+* @brief Estructura de la variable alumnos
+* apellido no superar 30 caracteres
+* nombre no superar 30 caracteres
+* documento no superar 11 caracteres
+* @author Roberto Federico Farfan
+* @version 1.0
+* @date 14/12/2021
+*/
 typedef struct alumno_s {
     char apellidos[30];
     char nombres[30];
